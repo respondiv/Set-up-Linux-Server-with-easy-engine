@@ -34,7 +34,7 @@ Change your HTTP authentication credentials
 
 `sudo ee secure --auth`
 
-Changing admin port to 33344 or romething random (default 22222)
+Changing admin port to 33344 or something random (default 22222)
 
 `sudo ee secure --port`
 
