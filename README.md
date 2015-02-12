@@ -10,9 +10,9 @@ Use Cloud Based VPS like DigitalOcean.com and Linode.com to setup web server
 - Update Security of the server
   - Setup UFW 
   - Setup Fail2Ban
-- Optimize the server for speed
-- Fix Few Common Errros
+- Fix Common Errros
 - Create Website
+  - Commands and Example Using Easy Engine
 - Add Users fot SFTP
 - Setup Permission for SSH and SUDO Command
 - Install SSL certificate using 3rd party SSL Certificate Provider
