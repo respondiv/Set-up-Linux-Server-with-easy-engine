@@ -73,7 +73,7 @@ To Configure SSH Server edit `/etc/ssh/sshd_config`
 Find the following and add / change the information where applicable
 
 ```
-# change it from 22
+# change SSH port from 22, for security
 Port 22233
 Protocol 2
 # this restrict root login, for security
