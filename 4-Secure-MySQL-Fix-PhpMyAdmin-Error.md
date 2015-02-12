@@ -15,7 +15,7 @@ update mysql root password for easy engine to read on following file if you have
 
 `sudo nano ~/.my.cnf`
 
-Save and exit the file `ctrl+x` and type `y` to save and exit
+Press `ctrl+x` and type `y` to save and exit
 
 #### Check for PhPmyAdmin Error, if there is any. To check
 
@@ -54,7 +54,8 @@ Make following Changes
 - Add blowfish_secret, which is a random word(s)
   - this will fix the blowfish_secret error
 - uncomment all storage database and tables config
- Save and exit the file `ctrl+x` and type `y` to save and exit
+
+Press `ctrl+x` and type `y` to save and exit
 
 Go to the Web Browser, Logout from current session of phpMyAdmin and login back. The errors should be fixed
 
