@@ -1,5 +1,5 @@
 # Set-up-Linux-Server
-Use Cloud Based VPS like [DigitalOcean.com](https://www.digitalocean.com/) and Linode.com(https://www.linode.com/) to setup web server
+Use Cloud Based VPS like [DigitalOcean.com](https://www.digitalocean.com/) and [Linode.com](https://www.linode.com/) to setup web server
 
 ### What it contains
 1. Setting Up server
