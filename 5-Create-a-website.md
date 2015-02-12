@@ -15,6 +15,8 @@ password = my-secure-password
 email = admin-email@example.com
 ```
 
+Press `ctrl+x` and type `y` to save and exit
+
 For more info see FAQ: [https://rtcamp.com/easyengine/faq/](https://rtcamp.com/easyengine/faq/)
 
 To see Conventions & File System Layout: [https://rtcamp.com/wordpress-nginx/tutorials/conventions/](https://rtcamp.com/wordpress-nginx/tutorials/conventions)
