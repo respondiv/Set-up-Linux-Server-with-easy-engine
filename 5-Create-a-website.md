@@ -45,7 +45,7 @@ create example.com with php & mysql support
 `sudo ee site create example.com --mysql`
 
 
-###### More details for site creation can be found here: [EasyEngin](https://github.com/rtCamp/easyengine)
+###### More details for site creation can be found here: [EasyEngine](https://github.com/rtCamp/easyengine)
 
 #### Site Management
 
