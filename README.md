@@ -2,34 +2,34 @@
 Use Cloud Based VPS like DigitalOcean.com and Linode.com to setup web server
 
 ### What it contains
-1 Setting Up server
-2 Upgrading it
+1. Setting Up server
+2. Upgrading it
   - Creating SWAP memory
-3 Installing Webserver using [EasyEngine] (https://github.com/rtCamp/easyengine)
+3. Installing Webserver using [EasyEngine] (https://github.com/rtCamp/easyengine)
   - Secure Easy Engine
   - WordPress Website will benefit most from it
   - Can be used for any other web application
-4 Securing MySQL and fixing phpMyAdmin Error
-5 Create Website
+4. Securing MySQL and fixing phpMyAdmin Error
+5. Create Website
   - Create Website WordPress or non-Wordpress
   - Site Management
   - Debugginh / Logging / Help
   - Convections
-6 Add / Edit User
+6. Add / Edit User
   - Add Users fot SFTP
   - Setup Permission for SSH / SFTP and SUDO Command
-7 Update Security of the server
+7. Update Security of the server
   - Setup UFW 
   - Secure Shared Memory
   - Prevent IP Spoofing
   - Setup Fail2Ban
-8 Optimize Nginx
+8. Optimize Nginx
   - Few Tweaks for Nginx
   - Change File Upload Limit
   - Nginx Conifig Sample for Optimized Website
-9 Example of Site Config for Optimum Webiste Performance without SSL
+9. Example of Site Config for Optimum Webiste Performance without SSL
   - Remove Default website that was installed with Nginx
-10 Install SSL certificate using 3rd party SSL Certificate Provider
-11 Example of Site Config for Optimum Webiste Performance with SSL
+10. Install SSL certificate using 3rd party SSL Certificate Provider
+11. Example of Site Config for Optimum Webiste Performance with SSL
 
 ## All the commands listed here should be executed manually Via SSH Terminal
