@@ -41,7 +41,7 @@ or, you can login Using SSH and copy all the queries from `/var/www/22222/htdocs
 
 Copy the displayed SQL queries, then perfom following steps
 - Go to phpmyadmin url `https://1.2.3.4:33344/db/pma`
-  - replace ip and port
+  - replace ip and port to match yours
 - Select "SQL" menu without choosing any database
 - Paste the queries copied from create_tables.sql file and click go
   - You should see the message "Tables created successfully"
