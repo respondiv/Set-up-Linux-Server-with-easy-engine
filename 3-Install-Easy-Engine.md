@@ -55,6 +55,8 @@ allow 192.168.1.100;
 deny all;
 ```
 
+Press `ctrl+x` and type `y` to save and exit
+
 Restart Nginx, PHP, MYSQL, Postfix
 
 `sudo ee stack restart`
