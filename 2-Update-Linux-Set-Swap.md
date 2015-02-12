@@ -46,7 +46,7 @@ Add following line at the bottom of the file
 
 `/ee-swapfile none swap sw 0 0`
 
-Save and exit the file `ctrl+x` and type `y` to save and exit
+Press `ctrl+x` and type `y` to save and exit
 
 To tweak SWAP setting for better performance, open `/etc/sysctl.conf` file with nano editor
 
@@ -60,7 +60,7 @@ vm.swappiness = 10
 vm.vfs_cache_pressure = 50
 ```
 
-Save and exit the file `ctrl+x` and type `y` to save and exit
+Press `ctrl+x` and type `y` to save and exit
 
 Reboot the System for changes to be effective
 
