@@ -42,7 +42,7 @@ Whitelisting IP’s (seperate ip by comma)
 
 `sudo ee secure --ip`
 
-For Whitelisting IP - you can edit / update the following file
+For Whitelisting IP - you can also edit / update the following file
 
 `sudo nano /etc/nginx/common/acl.conf`
 
