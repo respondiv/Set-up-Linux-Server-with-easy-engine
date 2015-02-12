@@ -39,7 +39,7 @@ or, you can login Using SSH and copy all the queries from `/var/www/22222/htdocs
 
 `cat /var/www/22222/htdocs/db/pma/examples/create_tables.sql`
 
-Copy the display SQL queries, then perfom following steps
+Copy the displayed SQL queries, then perfom following steps
 - Go to phpmyadmin url `https://1.2.3.4:33344/db/pma`
   - replace ip and port
 - Select "SQL" menu without choosing any database
