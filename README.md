@@ -5,7 +5,7 @@ Use Cloud Based VPS like DigitalOcean.com and Linode.com to setup web server
 - Setting Up server
 - Upgrading it
 - Creating SWAP memory
-- Installing Webserver using [link EasyEngine] (https://github.com/rtCamp/easyengine)
+- Installing Webserver using [EasyEngine] (https://github.com/rtCamp/easyengine)
   - WordPress Website will benefit most from it
 - Update Security of the server
   - Setup UFW 
