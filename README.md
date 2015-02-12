@@ -21,4 +21,4 @@ Use Cloud Based VPS like DigitalOcean.com and Linode.com to setup web server
 - Example of Site Config for Optimum Webiste Performance without SSL
 - Example of Site Config for Optimum Webiste Performance with SSL
 
-# All the commands listed here should be executed manually Via SSH Terminal
+## All the commands listed here should be executed manually Via SSH Terminal
