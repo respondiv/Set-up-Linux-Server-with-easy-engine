@@ -1,4 +1,3 @@
-``` sql
 -- --------------------------------------------------------
 -- SQL Commands to set up the pmadb as described in the documentation.
 --
@@ -323,4 +322,3 @@ CREATE TABLE IF NOT EXISTS `pma__central_columns` (
   COMMENT='Central list of columns'
   DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
 
-```
