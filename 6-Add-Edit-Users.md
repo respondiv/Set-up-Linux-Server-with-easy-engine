@@ -57,7 +57,12 @@ root ALL=(ALL:ALL) ALL
 ```
 
 Add following below the `root ALL=(ALL:ALL) ALL` line
+
+```
+# User privilege specification
+root ALL=(ALL:ALL) ALL
 new-user ALL=(ALL:ALL) ALL
+```
 
 Press `ctrl+x` and type `y` to save and exit
 
