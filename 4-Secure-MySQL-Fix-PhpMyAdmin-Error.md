@@ -24,7 +24,7 @@ Go to `https://1.2.3.4:33344/db/pma` using Web Browser
 - Replace :33344 with the new port that you have setup when creating easy engine (default is 22222)
 - verify yourself using HTTP auth Credential
   - If you forget your credential, you can reset it. [How to reset HTTP AUTH](https://github.com/respondiv/Set-up-Linux-Server/blob/master/3-Install-Easy-Engine.md)
-- Login to PhpMyAdmin wusing root credentials
+- Login to PhpMyAdmin using root credentials
   - Username: root
   - Password: MySQL root Password that you have setup above
 - See if there is any Error, Normally there should be two
