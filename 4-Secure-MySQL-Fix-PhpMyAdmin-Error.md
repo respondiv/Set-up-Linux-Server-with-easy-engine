@@ -33,7 +33,7 @@ Go to `https://1.2.3.4:33344/db/pma` using Web Browser
 
 #### To fix Can't Update error
 
-Copy all the SQL queries from Here [create_tables.sql](https://github.com/respondiv/Set-up-Linux-Server/blob/master/create_tables.sql)
+Copy all the SQL queries from here [create_tables.sql](https://github.com/respondiv/Set-up-Linux-Server/blob/master/create_tables.sql)
 
 or, you can login Using SSH and copy all the queries from `/var/www/22222/htdocs/db/pma/examples/create_tables.sql`. To do so, run following command
 
