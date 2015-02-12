@@ -3,6 +3,7 @@ Use Cloud Based VPS like DigitalOcean.com and Linode.com to setup web server
 
 ### What it contains
 1. Setting Up server
+  - We'll use Ubuntu 14.04 for this server setup
 2. Upgrading it
   - Creating SWAP memory
 3. Installing Webserver using [EasyEngine] (https://github.com/rtCamp/easyengine)
