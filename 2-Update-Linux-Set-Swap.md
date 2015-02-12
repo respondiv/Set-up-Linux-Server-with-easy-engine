@@ -11,7 +11,7 @@ We will install zip for future use
 
 ###### EasyEngine, which we will install and configure later will automatically add 1 GB SWAP if you have system RAM less than 1 GB. You need to create a SWAP if you have 1GB or more RAM. The SWAP size is generally preferred to be double the size of your RAM
 
-Allocate a swap space
+Allocate a swap space, this 2 GB is for 1 GB of System RAM
 
 `sudo fallocate -l 2G /ee-swapfile`
 
