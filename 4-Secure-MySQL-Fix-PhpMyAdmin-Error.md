@@ -17,7 +17,7 @@ update mysql root password for easy engine to read on following file if you have
 
 Save and exit the file `ctrl+x` and type `y` to save and exit
 
-#### Fix PhPMyAdmin Error if there is any
+#### Fix PhPmyAdmin Error if there is any
 
 Go to `https://1.2.3.4:33344/db/pma`
 - Replace 1.2.3.4 with your vps ip
