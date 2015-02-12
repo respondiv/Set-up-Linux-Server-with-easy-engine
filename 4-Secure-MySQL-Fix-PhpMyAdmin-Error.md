@@ -20,7 +20,7 @@ Save and exit the file `ctrl+x` and type `y` to save and exit
 #### Check for PhPmyAdmin Error, if there is any. To check
 
 Go to `https://1.2.3.4:33344/db/pma` using Web Browser
-- Replace 1.2.3.4 with your vps ip
+- Replace 1.2.3.4 with your VPS ip
 - Replace :33344 with the new port that you have setup when creating easy engine (default is 22222)
 - verify yourself using HTTP auth Credential
   - You can reset this credentials. [How to reset HTTP AUTH](https://github.com/respondiv/Set-up-Linux-Server/blob/master/3-Install-Easy-Engine.md)
