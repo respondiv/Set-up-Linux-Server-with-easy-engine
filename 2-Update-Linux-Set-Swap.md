@@ -24,9 +24,11 @@ Check the SWAP Space whether it has required permission
 `sudo ls -lh /ee-swapfile`
 
 Create a SWAP Space
+
 `sudo mkswap /ee-swapfile`
 
 Enable SWAP Space
+
 `sudo swapon /ee-swapfile`
 
 Check Your SWAP
