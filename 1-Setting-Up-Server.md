@@ -7,6 +7,8 @@
 - Choose whether you want to enable backup or not
 - Enable / Disable any other options needed
 - Add SSH key for more security, it's not required
+- Choose your Linux Distro
+  - We will choose and use Ubuntu 14.04 as its supported by easy engine
 - Create a Droplet / Linode and wait until its completed
 - Check your email for Root Password if you haven't added SSH key
 - SSH to the droplet / linode using Terminal (MAC and Linux) or use SSH client like [PUTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) for Windows
