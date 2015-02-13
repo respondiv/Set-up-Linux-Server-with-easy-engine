@@ -1,17 +1,17 @@
 
 #### Secure MySQL
 
-locate mysql root password
+**Locate mysql root password**
 
 `sudo cat ~/.my.cnf`
 
-secure mysql installation
+**Secure mysql installation**
 
 `sudo mysql_secure_installation`
 
 Select the configure that best matches you, normally press `y` 5 times. You can update the MySQL root password here if you want to
 
-update mysql root password for easy engine to read on following file if you have updated the password
+**Update mysql root password for easy engine to read on following file if you have updated the password**
 
 `sudo nano ~/.my.cnf`
 
@@ -19,7 +19,7 @@ Press `ctrl+x` and type `y` to save and exit
 
 #### Check for PhPmyAdmin Error, if there is any. To check
 
-Go to `https://1.2.3.4:33344/db/pma` using Web Browser
+**Go to `https://1.2.3.4:33344/db/pma` using Web Browser**
 - Replace 1.2.3.4 with your VPS ip
 - Replace :33344 with the new port that you have setup when creating easy engine (default is 22222)
 - verify yourself using HTTP auth Credential
