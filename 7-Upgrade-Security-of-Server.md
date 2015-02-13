@@ -160,7 +160,7 @@ Add / Edit following lines
 # only add this if its not present
 order bind,hosts
 
-# add this
+# add this at the end of file
 nospoof on
 ```
 
