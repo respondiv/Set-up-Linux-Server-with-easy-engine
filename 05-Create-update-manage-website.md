@@ -1,6 +1,6 @@
 #### Few Setup before installing WordPress
 
-**Edit `/etc/easyengine/ee.conf` file to setup custom wordpress**
+**Edit `/etc/ee/ee.conf` file to setup custom wordpress**
 
 `sudo nano /etc/easyengine/ee.conf`
 
