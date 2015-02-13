@@ -1,6 +1,6 @@
 ### Install EasyEngine Current Version 3.0.1
 Easy Engine Docs: [https://rtcamp.com/easyengine/docs/](https://rtcamp.com/easyengine/docs/)
-or, [http://docs.rtcamp.com/easyengine/](http://docs.rtcamp.com/easyengine/)
+or [http://docs.rtcamp.com/easyengine/](http://docs.rtcamp.com/easyengine/)
 
 Install wget if it's not already installed (usually is)
 
