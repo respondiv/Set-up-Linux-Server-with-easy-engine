@@ -47,7 +47,11 @@ create example.com with php & mysql support
 
 ###### More details for site creation can be found here: [EasyEngine](https://github.com/rtCamp/easyengine)
 
-#### Site Management
+#### Other EasyEngine Commands
+
+Only few selected commands are listed here. To view all commands [visit this link](http://docs.rtcamp.com/easyengine/commands/)
+
+###### Site
 
 Site enable
 
@@ -65,7 +69,30 @@ Site info
 
 `sudo ee site info example.com`
 
-#### Debuggins
+Site List
+
+```
+# list all websites
+sudo ee site list
+
+#list all enabled websites
+sudo site list --enabled
+
+# list all disabled websites
+sudo site list --disabled
+```
+
+Show Nginx Configuration
+
+`sudo ee site show example.com`
+
+Edit Site's Nginx Configuration
+
+`sudo ee site edit example.com`
+
+[View instruction to migrate website](https://rtcamp.com/easyengine/docs/commands/site/migrate/)
+
+###### Debuggins
 
 Debug System
 
@@ -83,7 +110,25 @@ Interactive
 
 `sudo ee debug example.com -i`
 
-#### Help
+###### Clean
+
+Clean all Cache (FastCGI, Memcache, OPCache)
+
+`sudo ee clean --all`
+
+Clean FastCGI cache
+
+`sudo ee clean --fastcgi`
+
+Clean Memcache
+
+`sudo ee clean --memcache`
+
+Clean OPcache
+
+`sudo ee clean --opcache`
+
+###### Help
 
 CLI
 
@@ -97,13 +142,14 @@ Manual pages
 
 `sudo man ee`
 
-#### Logging Path for easyengine
+###### Logging Path for easyengine
 
 Log loaction
 
 `/var/log/easyengine/`
 
-#### Convections
+
+###### Convections
 File sttucture for example.com
 
 All files related to example.com
