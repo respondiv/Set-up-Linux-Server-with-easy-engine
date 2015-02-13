@@ -63,6 +63,6 @@ It will open a blank file, copy and paste the certificate (right Click) here.
 
 Press `ctrl+x` and type `y` to save and exit
 
-**You'll need the CSR file (example.com.csr), the key file (example.com.key) and the combined certificate file (example.com.combined.crt) in your Server's SSL folder to use SSL for the site**
+**You'll need the CSR file (example.com.csr), the key file (example.com.key) and the combined certificate file (example.com.combined.crt) in your Server's SSL folder to use SSL for that site**
 
 Once you have all these files, you are ready to use SSL
