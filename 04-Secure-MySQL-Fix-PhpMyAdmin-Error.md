@@ -60,6 +60,8 @@ Make following Changes
 - Add blowfish_secret, which is a random word(s)
   - this will fix the blowfish_secret error
 - uncomment all storage database and tables config
+  - stop un-commenting when you reach `/* Contrib / Swekey authentication */` line
+
 
 Press `ctrl+x` and type `y` to save and exit
 
