@@ -20,7 +20,7 @@
 
 `sudo groupadd new-group-name`
 
-**See the current permission **
+**See the current permission**
 
 ```
 sudo ls -l /var/www/example.com
