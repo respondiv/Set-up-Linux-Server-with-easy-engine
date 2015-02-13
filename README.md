@@ -25,7 +25,6 @@ Use Cloud Based VPS like [DigitalOcean.com](https://www.digitalocean.com/) and [
   - Prevent IP Spoofing
   - Setup Fail2Ban
 8. Optimize Nginx
-  - Few Tweaks for Nginx
   - Change File Upload Limit
   - Nginx Conifig Sample for Optimized Website
 9. Example of Site Config for Optimum Webiste Performance without SSL
