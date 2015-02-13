@@ -62,3 +62,5 @@ find / -name "ee.conf"
 # e.g this search the file wp-config.php in /var/www/example.com folder
 find /var/www/example.com -name "wp-config.php"
 ```
+
+Details Docs link: [https://help.ubuntu.com/community/find](https://help.ubuntu.com/community/find)
