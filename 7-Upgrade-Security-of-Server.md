@@ -299,7 +299,7 @@ Change Directory
 
 `cd /etc/fail2ban/filter.d`
 
-Preventing brute force by php throttling limit
+Filter for Preventing brute force by php throttling limit
 
 `sudo nano nginx-ratelimit.conf`
 
@@ -314,7 +314,7 @@ ignoreregex =
 
 Press `ctrl+x` and type `y` to save and exit
 
-Blocks IPs that fail to authenticate using web application's log in page
+Filter for Blocking IPs that fail to authenticate using web application's log in page
 
 `sudo nano nginx-login.conf`
 
@@ -336,7 +336,7 @@ ignoreregex =
 
 Press `ctrl+x` and type `y` to save and exit
 
-Block IPs trying to execute scripts such as .php, .pl, .exe and other funny scripts.
+Filter for Blocking IPs trying to execute scripts such as .php, .pl, .exe and other funny scripts.
 
 `sudo nano nginx-noscript.conf`
 
@@ -359,7 +359,7 @@ ignoreregex =
 
 Press `ctrl+x` and type `y` to save and exit
 
-Block IPs trying to use server as proxy
+Filter for Blocking IPs trying to use server as proxy
 
 `sudo nano nginx-proxy.conf`
 
