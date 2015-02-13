@@ -2,7 +2,7 @@
 
 **Edit `/etc/ee/ee.conf` file to setup custom wordpress**
 
-`sudo nano /etc/easyengine/ee.conf`
+`sudo nano /etc/ee/ee.conf`
 
 **Add / Set following values**
 
