@@ -47,7 +47,7 @@ create example.com with php & mysql support
 
 Only few selected commands are listed here.
 
-###### Site
+##### Site
 
 Site enable
 
@@ -88,7 +88,7 @@ Edit Site's Nginx Configuration
 
 [View instruction to migrate website](https://rtcamp.com/easyengine/docs/commands/site/migrate/)
 
-###### Debuggins
+##### Debuggins
 
 Debug System
 
@@ -106,7 +106,7 @@ Interactive
 
 `sudo ee debug example.com -i`
 
-###### Clean
+##### Clean
 
 Clean all Cache (FastCGI, Memcache, OPCache)
 
@@ -124,7 +124,7 @@ Clean OPcache
 
 `sudo ee clean --opcache`
 
-###### Help
+##### Help
 
 CLI
 
@@ -138,14 +138,14 @@ Manual pages
 
 `sudo man ee`
 
-###### Logging Path for easyengine
+##### Logging Path for easyengine
 
 Log loaction
 
 `/var/log/easyengine/`
 
 
-###### Convections
+##### Convections
 File sttucture for example.com
 
 All files related to example.com
