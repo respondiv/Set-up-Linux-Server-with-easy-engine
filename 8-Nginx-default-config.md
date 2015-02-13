@@ -103,6 +103,11 @@ http {
   include /etc/nginx/conf.d/*.conf;
   include /etc/nginx/sites-enabled/*;
 
-
 }
+```
+
+**Restart nginx**
+
+`sudo nginx -t && sudo /etc/init.d/nginx restart`
+
 
