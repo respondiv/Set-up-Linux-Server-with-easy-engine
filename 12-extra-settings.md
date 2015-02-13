@@ -13,7 +13,7 @@ Note post_max_size should be larger than upload_max_filesize
 ```
 upload_max_filesize = 100M
 post_max_size = 120M
-``
+```
 
 **Reload php-fpm**
 
