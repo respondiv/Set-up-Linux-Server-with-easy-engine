@@ -142,6 +142,8 @@ net.ipv4.icmp_echo_ignore_all = 1
 
 ```
 
+Press `ctrl+x` and type `y` to save and exit
+
 Reload sysctl
 
 `sudo sysctl -p`
