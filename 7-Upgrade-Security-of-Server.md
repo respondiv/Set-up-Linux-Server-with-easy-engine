@@ -180,9 +180,7 @@ sudo apt-get install fail2ban
 
 `sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local`
 
-Establish a base firewall. With ufw setup no need for this, but you can view these settings on : [https://www.digitalocean.com/community/tutorials/how-to-install-and-use-fail2banon-
-ubuntu-14-04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-fail2banon-
-ubuntu-14-04)
+Establish a base firewall. With ufw setup no need for this, but you can view these settings on : [https://www.digitalocean.com/community/tutorials/how-to-install-and-use-fail2ban-on-ubuntu-14-04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-fail2ban-on-ubuntu-14-04)
 
 **Edit Fail2Ban conf file**
 
