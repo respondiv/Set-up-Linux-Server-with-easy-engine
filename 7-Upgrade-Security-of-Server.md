@@ -293,7 +293,7 @@ maxretry = 1
 
 Press `ctrl+x` and type `y` to save and exit
 
-Now we need to create filter file in `/etc/fail2ban/filder.d`
+Now we need to create filter(s) / file(s) in `/etc/fail2ban/filder.d`
 
 Change Directory
 
