@@ -1,42 +1,41 @@
 #### Set-Up UFW (Uncomplicated Firewall)
 
-Install Firewall if it's not already installed
+**Install Firewall if it's not already installed**
 
 ```
 sudo apt-get update
 sudo apt-get install ufw
 ```
 
-Set Deny as the default rule (this blocks everything)
+**Set Deny as the default rule (this blocks everything)**
 
 `sudo ufw default deny`
 
-Allow SSH with new port 22233 [update ssh port prior to this](https://github.com/respondiv/Set-up-Linux-Server/blob/master/6-Add-Edit-Users.md#change-the-ssh-port-for-security)
-
+**Allow SSH with new port 22233 [update ssh port prior to this](https://github.com/respondiv/Set-up-Linux-Server/blob/master/6-Add-Edit-Users.md#change-the-ssh-port-for-security)**
 
 `sudo ufw allow 22233/tcp`
 
-Allow HTTP
+**Allow HTTP**
 
 `sudo ufw allow 80/tcp`
 
-Allow HTTPS
+**Allow HTTPS**
 
 `sudo ufw allow 443/tcp`
 
-Allow MySQL
+**Allow MySQL**
 
 `sudo ufw allow 3306/tcp`
 
-Allow web admin access port for EasyEngine, default 22222 [update port](https://github.com/respondiv/Set-up-Linux-Server/blob/master/3-Install-Easy-Engine.md#lets-secure-easyengine-while-we-are-at-it)
+**Allow web admin access port for EasyEngine, default 22222 [update port](https://github.com/respondiv/Set-up-Linux-Server/blob/master/3-Install-Easy-Engine.md#lets-secure-easyengine-while-we-are-at-it)**
 
 `sudo ufw allow 33344/tcp`
 
-Enable the firewall
+**Enable the firewall**
 
 `sudo ufw enable`
 
-Check firewall status
+**Check firewall status**
 
 `sudo ufw status verbose`
 
@@ -144,7 +143,7 @@ net.ipv4.icmp_echo_ignore_all = 1
 
 Press `ctrl+x` and type `y` to save and exit
 
-Reload sysctl
+**Reload sysctl**
 
 `sudo sysctl -p`
 
@@ -166,18 +165,18 @@ nospoof on
 
 #### Ban Hosts - Using Fail2Ban
 
-Install Fail2Ban
+****Install Fail2Ban**
 
 ```
 sudo apt-get update
 sudo apt-get install fail2ban
 ```
 
-install sendmail to get notification and install iptables-persistent to allow the server to automatically setup our firewall rules at boot
+****Install sendmail to get notification and install iptables-persistent to allow the server to automatically setup our firewall rules at boot**
 
 `sudo apt-get install sendmail iptables-persistent`
 
-To Edit Faile2Ban config, copy the config file (jail.conf) to jail.local to prevent it from modifying when upgrading
+**To Edit Faile2Ban config, copy the config file (jail.conf) to jail.local to prevent it from modifying when upgrading**
 
 `sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local`
 
@@ -185,11 +184,11 @@ Establish a base firewall. With ufw setup no need for this, but you can view the
 ubuntu-14-04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-fail2banon-
 ubuntu-14-04)
 
-Edit Fail2Ban conf file
+**Edit Fail2Ban conf file**
 
 `sudo nano /etc/fail2ban/jail.local`
 
-Add / Edit the necessary config and Enable needed services
+**Add / Edit the necessary config and Enable needed services**
 
 ```
 # ignore IP, you can ignore multiple ip by separating them with spaces
@@ -293,7 +292,7 @@ maxretry = 1
 
 Press `ctrl+x` and type `y` to save and exit
 
-Now we need to create filter(s) / file(s) in `/etc/fail2ban/filder.d`
+**Now we need to create filter(s) / file(s) in `/etc/fail2ban/filder.d`**
 
 Change Directory
 
@@ -382,15 +381,15 @@ ignoreregex =
 
 Press `ctrl+x` and type `y` to save and exit
 
-Shutdown Fail2Ban service
+**Shutdown Fail2Ban service**
 
 `sudo service fail2ban stop`
 
-Start the service
+**Start the service**
 
 `sudo service fail2ban start`
 
-Check status
+**Check status**
 
 ```
 # displays all status
@@ -400,7 +399,7 @@ sudo fail2ban-client status
 sudo fail2ban-client status ssh
 ```
 
-Unban single ip, get jail name from above status command
+**Unban single ip, get jail name from above status command**
 
 ```
 # Syntax: fail2ban-client get jail-name actionunban ipaddress
