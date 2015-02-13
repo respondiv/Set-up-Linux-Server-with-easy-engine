@@ -165,14 +165,14 @@ nospoof on
 
 #### Ban Hosts - Using Fail2Ban
 
-****Install Fail2Ban**
+**Install Fail2Ban**
 
 ```
 sudo apt-get update
 sudo apt-get install fail2ban
 ```
 
-****Install sendmail to get notification and install iptables-persistent to allow the server to automatically setup our firewall rules at boot**
+**Install sendmail to get notification and install iptables-persistent to allow the server to automatically setup our firewall rules at boot**
 
 `sudo apt-get install sendmail iptables-persistent`
 
