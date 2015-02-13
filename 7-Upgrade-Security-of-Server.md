@@ -231,8 +231,7 @@ bantime = 3600
 
 # protect the password enabled portion of the website from getting slammed with login attempts.
 # this needs setup https://www.howtoforge.com/basic-http-authentication-with-nginx
-# or https://www.digitalocean.com/community/tutorials/how-to-set-up-httpauthentication-
-with-nginx-on-ubuntu-12-10
+# or https://www.digitalocean.com/community/tutorials/how-to-set-up-http-authentication-with-nginx-on-ubuntu-12-10
 
 [nginx-http-auth]
 enabled = true
