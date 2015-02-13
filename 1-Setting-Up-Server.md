@@ -14,4 +14,4 @@
 - SSH to the droplet / linode using Terminal (MAC and Linux) or use SSH client like [PUTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) for Windows
 
 
-#### All of these commands has to be performed into SSH terminal
+
