@@ -17,10 +17,6 @@ email = admin-email@example.com
 
 Press `ctrl+x` and type `y` to save and exit
 
-For more info see FAQ: [https://rtcamp.com/easyengine/faq/](https://rtcamp.com/easyengine/faq/)
-
-To see Conventions & File System Layout: [https://rtcamp.com/wordpress-nginx/tutorials/conventions/](https://rtcamp.com/wordpress-nginx/tutorials/conventions)
-
 #### Create a WordPress Website
 
 Create wordPress with fast cgi cache which uses W3TC for object and database cache only. This is the best compared to all caches handled by W3TC
@@ -181,4 +177,7 @@ Default nginx config
 `/etc/nginx/nginx.conf`
 
 
+For more info see FAQ: [https://rtcamp.com/easyengine/faq/](https://rtcamp.com/easyengine/faq/)
+
+To see Conventions & File System Layout: [https://rtcamp.com/wordpress-nginx/tutorials/conventions/](https://rtcamp.com/wordpress-nginx/tutorials/conventions)
 
