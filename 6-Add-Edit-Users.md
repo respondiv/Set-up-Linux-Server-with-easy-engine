@@ -70,7 +70,9 @@ To Configure SSH Server edit `/etc/ssh/sshd_config`
 
 `sudo nano /etc/ssh/sshd_config`
 
-######  Find the following and add / change the information where applicable. Do not forget to change the SSH port for Security.
+Find the following and add / change the information where applicable. 
+
+###### Change the SSH port for Security.
 
 ```
 # change SSH port from 22, for security
