@@ -28,10 +28,10 @@ Press `ctrl+x` and type `y` to save and exit
   - Username: root
   - Password: MySQL root Password that you have setup above
 - See if there is any Error, Normally there should be two
-  - blowfish_secret error message
-  - Can't update
+  - The configuration file now needs a secret passphrase (blowfish_secret)
+  - The phpMyAdmin configuration storage is not completely configured
 
-#### To fix Can't Update error
+#### To fix "The phpMyAdmin configuration storage is not completely configured"
 
 Copy all the SQL queries from here [create_tables.sql](https://github.com/respondiv/Set-up-Linux-Server/blob/master/create_tables.sql)
 
