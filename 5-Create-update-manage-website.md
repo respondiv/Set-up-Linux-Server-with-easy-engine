@@ -41,13 +41,13 @@ Change example.com to your domain name or ip address
 `sudo ee site create example.com --mysql`
 
 
-###### More details for site creation can be found here: [EasyEngine](https://github.com/rtCamp/easyengine)
+More details for site creation can be found here: [EasyEngine](https://github.com/rtCamp/easyengine)
 
 #### Other EasyEngine Commands
 
 Only few selected commands are listed here.
 
-##### Site
+#### Site
 
 **Site enable**
 
@@ -88,7 +88,7 @@ sudo site list --disabled
 
 [View instruction to migrate website](https://rtcamp.com/easyengine/docs/commands/site/migrate/)
 
-##### Debuggins
+#### Debuggins
 
 **Debug System**
 
@@ -106,7 +106,7 @@ sudo site list --disabled
 
 `sudo ee debug example.com -i`
 
-##### Clean
+#### Clean
 
 **Clean all Cache (FastCGI, Memcache, OPCache)**
 
@@ -124,7 +124,7 @@ sudo site list --disabled
 
 `sudo ee clean --opcache`
 
-##### Help
+#### Help
 
 **CLI**
 
@@ -138,14 +138,14 @@ sudo site list --disabled
 
 `sudo man ee`
 
-##### Logging Path for easyengine
+#### Logging Path for easyengine
 
 **Log loaction**
 
 `/var/log/easyengine/`
 
 
-##### Convections
+#### Convections
 File sttucture for example.com
 
 **All files related to example.com**
