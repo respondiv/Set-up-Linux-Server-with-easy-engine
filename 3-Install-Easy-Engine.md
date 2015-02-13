@@ -29,7 +29,7 @@ ee stack install --utils
 ee stack install --phpmyadmin
 ```
 
-**DO not forget to save your HTTP authentication credentials as it's needed to manage admin portal via browser**
+**Do not forget to save your HTTP authentication credentials as it's needed to manage admin portal via browser**
 
 #### Let's secure EasyEngine while we are at it
 
