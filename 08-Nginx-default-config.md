@@ -46,6 +46,8 @@ http {
   # real_ip_header X-Forwarded-For;
   
   fastcgi_read_timeout 300;
+  
+  # Change this to the desired max upload limit
   client_max_body_size 100m;
   
   # SSL Settings
