@@ -44,7 +44,7 @@ Copy the displayed SQL queries, then perfom following steps
   - replace ip and port to match yours
 - Select "SQL" menu without choosing any database
 - Paste the queries copied from create_tables.sql file and click "GO"
-  - You should see the message "Tables created successfully"
+  - You should see the message "MySQL returned an empty result set (i.e. zero rows) in Green bar"
 
 Now go back to SSH, we need to edit `config.inc.php` file
 
