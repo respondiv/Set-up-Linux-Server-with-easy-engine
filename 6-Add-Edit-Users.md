@@ -1,26 +1,26 @@
 #### Create new SFTP user
 
-Create a new user
+**Create a new user**
 
 `sudo adduser new-sudo-user`
 
-Set / Reset Password
+**Set / Reset Password**
 
 `sudo passwd new-sudo-user`
 
-Change User’s Home Directory
+**Change User’s Home Directory**
 
 `sudo usermod --home /var/www/example.com/htdocs new-sudo-user`
 
-Add user to the group www-data, which is a nginx web-server group
+**Add user to the group www-data, which is a nginx web-server group**
 
 `sudo usermod -a -G www-data new-sudo-user`
 
-If needed, create a new group for users, don't need for this setup, so skip this
+*If needed, create a new group for users, don't need for this setup, so skip this*
 
 `sudo groupadd new-group-name`
 
-see the current permission 
+**See the current permission **
 
 ```
 sudo ls -l /var/www/example.com
@@ -28,14 +28,14 @@ sudo ls -l /avr/www/example.com/htdocs
 sudo ls -l /avr/www/example.com/htdocs/wp-content
 ```
 
-Add group read/write `g+rw`
+**Add group read/write `g+rw`**
 
 ```
 sudo chmod -R g+rw /var/www/example.com
 sudo chmod -R 755 /var/www/example.com/htdocs/wp-content
 ```
 
-check folder permission using `ls -l`, it should be like: `drwxrwxr-x`
+**Check folder permission using `ls -l`, it should be like: `drwxrwxr-x`**
 
 ```
 sudo ls -l /var/www/example.com
@@ -45,7 +45,7 @@ sudo ls -l /avr/www/example.com/htdocs/wp-content
 
 #### Give this new-user a SSH access with sudo 
 
-Open the `visudo` to give access
+**Open the `visudo` to give access**
 
 `visudo`
 
@@ -66,7 +66,7 @@ new-user ALL=(ALL:ALL) ALL
 
 Press `ctrl+x` and type `y` to save and exit
 
-To Configure SSH Server edit `/etc/ssh/sshd_config`
+**To Configure SSH Server edit `/etc/ssh/sshd_config`**
 
 `sudo nano /etc/ssh/sshd_config`
 
@@ -89,11 +89,11 @@ AllowUsers new-user
 
 Press `ctrl+x` and type `y` to save and exit
 
-Reload SSH
+**Reload SSH**
 
 `service ssh restart`
 
-If necessary reboot: 
+**If necessary reboot**
 
 `sudo reboot now`
 
