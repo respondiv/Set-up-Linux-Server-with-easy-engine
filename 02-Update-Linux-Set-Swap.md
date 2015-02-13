@@ -20,7 +20,7 @@ EasyEngine, which we will install and configure later will automatically add 1 G
 
 `sudo chmod 600 /ee-swapfile`
 
-**Check the SWAP Space whether it has required permission**
+**Check the SWAP Space whether it has required permission (-rw-------)**
 
 `sudo ls -lh /ee-swapfile`
 
