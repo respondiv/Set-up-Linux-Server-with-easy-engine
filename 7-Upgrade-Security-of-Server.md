@@ -177,7 +177,7 @@ install sendmail to get notification and install iptables-persistent to allow th
 
 `sudo apt-get install sendmail iptables-persistent`
 
-To Edit Faile2Ban config, copy the config file (jail.conf) to jail.local to prevent it from modified when upgrading
+To Edit Faile2Ban config, copy the config file (jail.conf) to jail.local to prevent it from modifying when upgrading
 
 `sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local`
 
