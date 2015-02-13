@@ -45,7 +45,7 @@ create example.com with php & mysql support
 
 #### Other EasyEngine Commands
 
-Only few selected commands are listed here. To view all commands [visit this link](http://docs.rtcamp.com/easyengine/commands/)
+Only few selected commands are listed here.
 
 ###### Site
 
@@ -176,6 +176,9 @@ Default nginx config
 
 `/etc/nginx/nginx.conf`
 
+#### Useful Links
+
+[View all commands by visiting this link](http://docs.rtcamp.com/easyengine/commands/)
 
 For more info see FAQ: [https://rtcamp.com/easyengine/faq/](https://rtcamp.com/easyengine/faq/)
 
