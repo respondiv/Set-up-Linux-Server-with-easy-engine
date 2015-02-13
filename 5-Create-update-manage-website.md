@@ -1,10 +1,10 @@
 #### Few Setup before installing WordPress
 
-Edit `/etc/easyengine/ee.conf` file to setup custom wordpress
+**Edit `/etc/easyengine/ee.conf` file to setup custom wordpress**
 
 `sudo nano /etc/easyengine/ee.conf`
 
-Add / Set following values
+**Add / Set following values**
 
 ```
 db-name = true
@@ -28,15 +28,15 @@ Change example.com to your domain name or ip address
 
 #### Create non WordPress Site
 
-create example.com for static/html sites
+**Create example.com for static/html sites**
 
 `sudo ee site create example.com --html`
 
-create example.com with php support 
+**Create example.com with php support** 
 
 `sudo ee site create example.com --php`
 
-create example.com with php & mysql support
+**Create example.com with php & mysql support**
 
 `sudo ee site create example.com --mysql`
 
@@ -49,23 +49,23 @@ Only few selected commands are listed here.
 
 ##### Site
 
-Site enable
+**Site enable**
 
 `sudo ee site enable example.com`
 
-Site disable
+**Site disable**
 
 `sudo ee site disable example.com`
 
-Site delete
+**Site delete**
 
 `sudo ee site delete example.com`
 
-Site info
+**Site info**
 
 `sudo ee site info example.com`
 
-Site List
+**Site List**
 
 ```
 # list all websites
@@ -78,11 +78,11 @@ sudo site list --enabled
 sudo site list --disabled
 ```
 
-Show Nginx Configuration
+**Show Nginx Configuration**
 
 `sudo ee site show example.com`
 
-Edit Site's Nginx Configuration
+**Edit Site's Nginx Configuration**
 
 `sudo ee site edit example.com`
 
@@ -90,57 +90,57 @@ Edit Site's Nginx Configuration
 
 ##### Debuggins
 
-Debug System
+**Debug System**
 
 `sudo ee debug`
 
-Debug Site
+**Debug Site**
 
 `sudo ee debug example.com`
 
-Rewrites only
+**Rewrites only**
 
 `sudo ee debug example.com --rewrite`
 
-Interactive
+**Interactive**
 
 `sudo ee debug example.com -i`
 
 ##### Clean
 
-Clean all Cache (FastCGI, Memcache, OPCache)
+**Clean all Cache (FastCGI, Memcache, OPCache)**
 
 `sudo ee clean --all`
 
-Clean FastCGI cache
+**Clean FastCGI cache**
 
 `sudo ee clean --fastcgi`
 
-Clean Memcache
+**Clean Memcache**
 
 `sudo ee clean --memcache`
 
-Clean OPcache
+**Clean OPcache**
 
 `sudo ee clean --opcache`
 
 ##### Help
 
-CLI
+**CLI**
 
 `sudo ee info`
 
-Built in help
+**Built in help**
 
 `sudo ee help`
 
-Manual pages
+**Manual pages**
 
 `sudo man ee`
 
 ##### Logging Path for easyengine
 
-Log loaction
+**Log loaction**
 
 `/var/log/easyengine/`
 
@@ -148,23 +148,23 @@ Log loaction
 ##### Convections
 File sttucture for example.com
 
-All files related to example.com
+**All files related to example.com**
 
 `/var/www/esample.com/`
 
-Document Root
+**Document Root**
 
 `/var/www/example.com/htdocs/`
 
-Logs
+**Logs**
 
 `/var/www/example.com/logs/`
 
-WordPress Config
+**WordPress Config**
 
 `/var/www/example.com/wp-config.php`
 
-Nginx Config for example.com
+**Nginx Config for example.com**
 
 `/etc/nginx/sites-available/example.com`
 
@@ -172,7 +172,7 @@ or
 
 `/etc/nginx/sites-enabled/example.com`
 
-Default nginx config
+**Default nginx config**
 
 `/etc/nginx/nginx.conf`
 
