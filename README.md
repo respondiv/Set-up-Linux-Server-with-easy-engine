@@ -26,10 +26,10 @@ Use Cloud Based VPS like [DigitalOcean.com](https://www.digitalocean.com/) and [
   - Setup Fail2Ban
 8. Nginx default conifig Sample for Optimized Website
 9. Example of Site Config for Optimum Webiste Performance without SSL
-  - Remove Default website that was installed with Nginx
 10. Install SSL certificate using 3rd party SSL Certificate Provider
 11. Example of Site Config for Optimum Webiste Performance with SSL
 12. Extra Settings
+  - Remove Default website that was installed with Nginx
   - Change File Upload Limit
 
 ## All the commands listed here should be executed manually Via SSH Terminal
