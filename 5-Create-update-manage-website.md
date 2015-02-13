@@ -178,7 +178,7 @@ Default nginx config
 
 #### Useful Links
 
-[View all commands by visiting this link](http://docs.rtcamp.com/easyengine/commands/)
+View all commands: [http://docs.rtcamp.com/easyengine/commands/](http://docs.rtcamp.com/easyengine/commands/)
 
 For more info see FAQ: [https://rtcamp.com/easyengine/faq/](https://rtcamp.com/easyengine/faq/)
 
