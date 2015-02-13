@@ -106,7 +106,8 @@ http {
 }
 ```
 
-**Restart nginx**
+
+**Test and Restart nginx**
 
 `sudo nginx -t && sudo /etc/init.d/nginx restart`
 
