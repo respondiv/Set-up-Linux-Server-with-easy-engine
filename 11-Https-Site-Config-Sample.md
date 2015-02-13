@@ -1,4 +1,4 @@
-#### Https Site Config  -- With SSL
+#### Https Site Config  -- After installing SSL Certificate
 
 **Edit Server Block Config File**
 
