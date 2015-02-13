@@ -1,6 +1,6 @@
 #### Default Nginx Config for Optimized Website
 
-**check # of cpu**
+**check # of cpu, the # of worker_processes value (below) depends upon # of CPU**
 
 `sudo grep processor /proc/cpuinfo | wc -l`
 
