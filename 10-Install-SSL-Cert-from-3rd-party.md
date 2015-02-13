@@ -18,7 +18,7 @@
 
 `sudo openssl req -new -key example.key -out example.com.csr`
 
-*Note: in Common Name Place enter domain name or server ip. e.g. Common Name: example.com*
+*Note: in Common Name Place enter domain name or server ip. e.g.* **Common Name: example.com**
 
 **Remove Passphrase**
 
