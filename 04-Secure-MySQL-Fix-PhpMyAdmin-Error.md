@@ -50,6 +50,12 @@ Now go back to SSH, we need to edit `config.inc.php` file
 
 `sudo nano /var/www/22222/htdocs/db/pma/config.inc.php`
 
+If it returns an empty file, then you need to copy contnt of `config.sample.inc.php` to `config.inc.php` 
+
+`cp /var/www/22222/htdocs/db/pma/config.sample.inc.php /var/www/22222/htdocs/db/pma/config.inc.php`
+
+Now edit `config.inc.php` by `sudo nano /var/www/22222/htdocs/db/pma/config.inc.php`
+
 Make following Changes
 - Add blowfish_secret, which is a random word(s)
   - this will fix the blowfish_secret error
