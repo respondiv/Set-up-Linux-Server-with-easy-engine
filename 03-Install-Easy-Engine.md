@@ -24,9 +24,9 @@ EasyEngine(ee) Stack manages packages required to run your website smoothly. [Ch
 We will choose few stack that is needed for web server only, no mail server. To install these stack run following command
 
 ```
-ee stack install
-ee stack install --utils
-ee stack install --phpmyadmin
+sudo ee stack install
+sudo ee stack install --utils
+sudo ee stack install --phpmyadmin
 ```
 
 **Do not forget to save your HTTP authentication credentials as it's needed to manage admin portal via browser**
