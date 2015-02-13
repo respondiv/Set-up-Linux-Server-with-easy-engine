@@ -37,9 +37,11 @@ sudo openssl rsa -in example.com.org -out example.com.key
 
 **Copy CSR**
 
-Ee will need to copy-paste CSR when submitting Certificate Requrst to Certificate Authority (CA). To print CSR content, use following command
+We will need to copy-paste CSR when submitting Certificate Requrst to Certificate Authority (CA). To print CSR content, use following command
 
 `cat example.com.csr`
+
+Copy the CSR content
 
 **Go to the CA website and request certificate by pasting CSR. [startssl.com](http://www.startssl.com/) provides free SSL**
 
