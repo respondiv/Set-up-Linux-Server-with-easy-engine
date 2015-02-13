@@ -51,4 +51,14 @@ server {
 }
 ```
 
+#### Find a file by name
 
+```
+# syntax: Find [path] -name "filename.extension"
+
+# e.g this search the file ee.conf in entire harddisk
+find / -name "ee.conf"
+
+# e.g this search the file wp-config.php in /var/www/example.com folder
+find /var/www/example.com -name "wp-config.php"
+```
