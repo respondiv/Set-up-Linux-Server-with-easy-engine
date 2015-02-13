@@ -40,7 +40,7 @@ server {
   
   # ssl settings begin
   ssl on;
-  ssl_certificate /etc/nginx/example.com-ssl/example.combined.crt;
+  ssl_certificate /etc/nginx/example.com-ssl/example.com.combined.crt;
   ssl_certificate_key /etc/nginx/example.com-ssl/example.com.key;
   
   #enables all versions of TLS, but not SSLv2 or 3 which are weak and now deprecated.
