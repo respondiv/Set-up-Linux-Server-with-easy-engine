@@ -1,4 +1,4 @@
-#### Http Site Config 
+#### Http Site Config - Without SSL
 
 **Edit Server Block Config File**
 
