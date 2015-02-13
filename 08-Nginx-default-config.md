@@ -108,7 +108,7 @@ http {
 }
 ```
 
-#### Comment all the lines from the file `/etc/nginx/conf.d/ee-nginx.conf` as the above configuration contain everything
+**Comment all the lines from the file** `/etc/nginx/conf.d/ee-nginx.conf` **as the above configuration contain everything**
 
 `sudo nano /etc/nginx/conf.d/ee-nginx.conf`
 
