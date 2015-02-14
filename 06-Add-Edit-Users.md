@@ -24,8 +24,8 @@
 
 ```
 sudo ls -l /var/www/example.com
-sudo ls -l /avr/www/example.com/htdocs
-sudo ls -l /avr/www/example.com/htdocs/wp-content
+sudo ls -l /var/www/example.com/htdocs
+sudo ls -l /var/www/example.com/htdocs/wp-content
 ```
 
 **Add group read/write `g+rw`**
@@ -39,8 +39,8 @@ sudo chmod -R 755 /var/www/example.com/htdocs/wp-content
 
 ```
 sudo ls -l /var/www/example.com
-sudo ls -l /avr/www/example.com/htdocs
-sudo ls -l /avr/www/example.com/htdocs/wp-content
+sudo ls -l /var/www/example.com/htdocs
+sudo ls -l /var/www/example.com/htdocs/wp-content
 ```
 
 #### Give this new-user a SSH access with sudo 
