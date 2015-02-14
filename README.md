@@ -6,7 +6,7 @@ Use Cloud Based VPS like [DigitalOcean.com](https://www.digitalocean.com/) and [
   - We'll use Ubuntu 14.04 for this server setup
 2. Upgrading it
   - Creating SWAP memory
-3. Installing Webserver using [EasyEngine] (https://github.com/rtCamp/easyengine)
+3. Installing Webserver using [EasyEngine](https://github.com/rtCamp/easyengine)
   - Secure Easy Engine
   - WordPress Website will benefit most from it
   - Can be used for any other web application
