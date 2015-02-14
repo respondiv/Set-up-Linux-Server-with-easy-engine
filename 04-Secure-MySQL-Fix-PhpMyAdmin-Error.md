@@ -66,6 +66,7 @@ Make following Changes
 ```
 ......
 ......
+
 /*
  * This is needed for cookie based authentication to encrypt password in
  * cookie
@@ -131,6 +132,7 @@ $cfg['Servers'][$i]['AllowNoPassword'] = false;
 ```
 ......
 ......
+
 /*
  * This is needed for cookie based authentication to encrypt password in
  * cookie
