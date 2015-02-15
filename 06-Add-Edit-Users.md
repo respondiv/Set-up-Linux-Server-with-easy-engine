@@ -28,6 +28,10 @@ sudo ls -l /var/www/example.com/htdocs
 sudo ls -l /var/www/example.com/htdocs/wp-content
 ```
 
+*Make nginx user (www-data) and the group (www-data) the owner of the Web Root Folder
+
+`sudo chown www-data:www-data -R /var/www/`
+
 **Add group read/write `g+rw`**
 
 ```
