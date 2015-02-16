@@ -16,7 +16,7 @@
 
 **Create a certificate signing request**
 
-`sudo openssl req -new -key example.key -out example.com.csr`
+`sudo openssl req -new -key example.com.key -out example.com.csr`
 
 *Note: in Common Name Place enter domain name or server ip. e.g.* **Common Name: example.com**
 
