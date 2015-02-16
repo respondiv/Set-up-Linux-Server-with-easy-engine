@@ -14,9 +14,6 @@ server {
   # Make site accessible from http://example.com/
   server_name example.com www.example.com;
   
-  # sends all traffic from www.example.com to example.com
-  return 301 http://$server_name$request_uri;
-  
   access_log /var/log/nginx/example.com.access.log rt_cache;
   error_log /var/log/nginx/example.com.error.log;
   
