@@ -55,7 +55,7 @@ server {
   # This forces every request after this one to be over HTTPS
   add_header Strict-Transport-Security "max-age=31536000";
   
-  ssl settings ends
+  # ssl settings ends
   
   # forward the page to serve via spdy if the server request non-spdy page request
   add_header Alternate-Protocol 443:npn-spdy/3;
