@@ -57,3 +57,11 @@ server {
   #}
 
 }
+
+**Test and Restart nginx**
+
+`sudo nginx -t && sudo /etc/init.d/nginx restart`
+
+OR
+
+`sudo ee stack restart`
