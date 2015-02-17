@@ -81,8 +81,7 @@ http {
   ##
   access_log /var/log/nginx/access.log;
   error_log /var/log/nginx/error.log;
-  log_format rt_cache '$remote_addr $upstream_response_time
-  $upstream_cache_status [$time_local] '
+  log_format rt_cache '$remote_addr $upstream_response_time $upstream_cache_status [$time_local] '
   '$http_host "$request" $status $body_bytes_sent '
   '"$http_referer" "$http_user_agent"';
   
