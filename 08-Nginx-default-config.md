@@ -115,4 +115,6 @@ http {
 
 `sudo nginx -t && sudo /etc/init.d/nginx restart`
 
+OR
 
+`sudo ee stack restart`
