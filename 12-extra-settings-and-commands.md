@@ -110,5 +110,12 @@ mysqldump --single-transaction -u mysql_user_name -p -mysql_db_name | gzip > fil
 mysqlcheck -r -u mysql_user_name -p -mysql_db_name
 
 # Optimize a database
-mysqlcheck -r -u mysql_user_name -p -mysql_db_nam
+mysqlcheck -r -u mysql_user_name -p -mysql_db_name
+```
+
+#### Change from your sudo user to root user
+
+```
+# log into SSH using Sudo user's credential. Then type following command
+su
 ```
