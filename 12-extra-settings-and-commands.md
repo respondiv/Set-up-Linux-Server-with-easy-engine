@@ -91,7 +91,7 @@ zip -r new-zip-filename.zip path/to/the/folder*
 zip -r new-zip-filename.zip path/to/the/folder* -x "path/to/exclude/folder1" "path/to/exclude/folder2"
 
 # to unzip in current directory
-unzip filename.zip -d destination_folder
+unzip filename.zip
 
 # to unzip in different directory
 unzip filename.zip -d path/to/destination_folder
@@ -100,5 +100,15 @@ unzip filename.zip -d path/to/destination_folder
 #### Backup MySQL Database from command line
 
 ```
-mysqldump --singletransaction -u mysql_user_name -p -mysql_db_name | gzip > filename.sql.gz
+mysqldump --single-transaction -u mysql_user_name -p -mysql_db_name | gzip > filename.sql.gz
+```
+
+#### Repair and Optimize MySQL Database
+
+```
+# repair a database
+mysqlcheck -r -u mysql_user_name -p -mysql_db_name
+
+# Optimize a database
+mysqlcheck -r -u mysql_user_name -p -mysql_db_nam
 ```
