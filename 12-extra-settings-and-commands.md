@@ -64,3 +64,41 @@ find /var/www/example.com -name "wp-config.php"
 ```
 
 Details Docs link: [https://help.ubuntu.com/community/find](https://help.ubuntu.com/community/find)
+
+#### Remove a file / folder
+
+```
+# syntax to remove a file
+sudo rm path/to/file/filename.extension
+
+# e.g
+sudo rm /var/www/example.com/htdocs/file.php
+
+# syntax to remove a folder and its content
+sudo rm -r path/to/folder
+
+# e.g
+sudo rm -r /var/www/example.com/htdocs/folder1
+```
+
+#### zip / unzip all files and folder inside a directory
+
+```
+# to zip file / folder in current directory
+zip -r new-zip-filename.zip path/to/the/folder*
+
+# to zip file / folder in current directory and exclude few director
+zip -r new-zip-filename.zip path/to/the/folder* -x "path/to/exclude/folder1" "path/to/exclude/folder2"
+
+# to unzip in current directory
+unzip filename.zip -d destination_folder
+
+# to unzip in different directory
+unzip filename.zip -d path/to/destination_folder
+```
+
+#### Backup MySQL Database from command line
+
+```
+mysqldump --singletransaction -u mysql_user_name -p -mysql_db_name | gzip > filename.sql.gz
+```
