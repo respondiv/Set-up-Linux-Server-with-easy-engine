@@ -1,4 +1,4 @@
-#### Install SSL certificate using 3rd party SSL Certificate Provider
+#### Generate / Install SSL certificate 
 
 **Create a folder to store SSL**
 
@@ -7,6 +7,19 @@
 **We need to perform next few steps within director, so change the directory**
 
 `cd /etc/nginx/example.com-ssl/`
+
+#### Generate your own SSL certificate and Key
+
+It's secure and free of cost but the browser will display warning message saying "Your connection is not Private" as its security certificate is not trusted, but it didn't come from recognized company.
+
+`sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout example.com.key -out example.com.crt`
+
+**Skip Rest of the Steps**
+
+#### Using a 3rd Party Provider like [startssl.com](http://www.startssl.com/) or [comodo ssl](https://ssl.comodo.com/) to get a SSL certificate
+
+There is a cost to it but the browser will not display warning message as the security certificate is trusted because you are getting it from recognized company.
+
 
 **Create a private Server Key (don't forget to store the passphrase)**
 
