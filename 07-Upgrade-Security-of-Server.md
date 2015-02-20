@@ -27,7 +27,7 @@ sudo apt-get install ufw
 
 `sudo ufw allow 3306/tcp`
 
-**Allow web admin access port for EasyEngine, default 22222 [update port](https://github.com/respondiv/Set-up-Linux-Server-with-easy-engine/blob/master/3-Install-Easy-Engine.md#lets-secure-easyengine-while-we-are-at-it)**
+**Allow web admin access port for EasyEngine, default 22222 [update port](https://github.com/respondiv/Set-up-Linux-Server-with-easy-engine/blob/master/03-Install-Easy-Engine.md#lets-secure-easyengine-while-we-are-at-it)**
 
 `sudo ufw allow 33344/tcp`
 
