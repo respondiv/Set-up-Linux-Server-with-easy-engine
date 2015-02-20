@@ -11,7 +11,7 @@ sudo apt-get install ufw
 
 `sudo ufw default deny`
 
-**Allow SSH with new port 22233 [update ssh port prior to this](https://github.com/respondiv/Set-up-Linux-Server-with-easy-engine/blob/master/6-Add-Edit-Users.md#change-the-ssh-port-for-security)**
+**Allow SSH with new port 22233 [update ssh port prior to this](https://github.com/respondiv/Set-up-Linux-Server-with-easy-engine/blob/master/06-Add-Edit-Users.md#change-the-ssh-port-for-security)**
 
 `sudo ufw allow 22233/tcp`
 
