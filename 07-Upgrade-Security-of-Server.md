@@ -11,7 +11,7 @@ sudo apt-get install ufw
 
 `sudo ufw default deny`
 
-**Allow SSH with new port 22233 [update ssh port prior to this](https://github.com/respondiv/Set-up-Linux-Server/blob/master/6-Add-Edit-Users.md#change-the-ssh-port-for-security)**
+**Allow SSH with new port 22233 [update ssh port prior to this](https://github.com/respondiv/Set-up-Linux-Server-with-easy-engine/blob/master/6-Add-Edit-Users.md#change-the-ssh-port-for-security)**
 
 `sudo ufw allow 22233/tcp`
 
@@ -27,7 +27,7 @@ sudo apt-get install ufw
 
 `sudo ufw allow 3306/tcp`
 
-**Allow web admin access port for EasyEngine, default 22222 [update port](https://github.com/respondiv/Set-up-Linux-Server/blob/master/3-Install-Easy-Engine.md#lets-secure-easyengine-while-we-are-at-it)**
+**Allow web admin access port for EasyEngine, default 22222 [update port](https://github.com/respondiv/Set-up-Linux-Server-with-easy-engine/blob/master/3-Install-Easy-Engine.md#lets-secure-easyengine-while-we-are-at-it)**
 
 `sudo ufw allow 33344/tcp`
 
