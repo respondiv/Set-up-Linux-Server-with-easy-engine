@@ -23,7 +23,7 @@ Press `ctrl+x` and type `y` to save and exit
 - Replace 1.2.3.4 with your VPS ip
 - Replace :33344 with the new port that you have setup when creating easy engine (default is 22222)
 - verify yourself using HTTP auth Credential
-  - If you forget your credential, you can reset it. [How to reset HTTP AUTH](https://github.com/respondiv/Set-up-Linux-Server/blob/master/3-Install-Easy-Engine.md#lets-secure-easyengine-while-we-are-at-it)
+  - If you forget your credential, you can reset it. [How to reset HTTP AUTH](https://github.com/respondiv/Set-up-Linux-Server-with-easy-engine/blob/master/3-Install-Easy-Engine.md#lets-secure-easyengine-while-we-are-at-it)
 - Login to PhpMyAdmin using root credentials
   - Username: root
   - Password: MySQL root Password that you have setup above
@@ -33,7 +33,7 @@ Press `ctrl+x` and type `y` to save and exit
 
 #### To fix "The phpMyAdmin configuration storage is not completely configured"
 
-Copy all the SQL queries from here [create_tables.sql](https://github.com/respondiv/Set-up-Linux-Server/blob/master/create_tables.sql)
+Copy all the SQL queries from here [create_tables.sql](https://github.com/respondiv/Set-up-Linux-Server-with-easy-engine/blob/master/create_tables.sql)
 
 or, you can login Using SSH and copy all the queries from `/var/www/22222/htdocs/db/pma/examples/create_tables.sql`. To do so, run following command
 
