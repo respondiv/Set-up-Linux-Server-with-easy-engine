@@ -30,7 +30,7 @@ http {
   
   server_tokens off;
   reset_timedout_connection on;
-  add_header X-Powered-By "EasyEngine 3.0.2";
+  add_header X-Powered-By "EasyEngine 3.0.4";
   add_header rt-Fastcgi-Cache $upstream_cache_status;
   
   # Limit Request
