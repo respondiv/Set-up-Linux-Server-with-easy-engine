@@ -154,7 +154,7 @@ Establish a base firewall. With ufw setup no need for this, but you can view the
 ignoreip = 127.0.0.1/8 1
 
 # ban time - in seconds
-bantime = 3600
+bantime = 7200
 
 # ban a client that unsuccessfully attempts to log in 5 times within a 600 secs (10
 minute) window.
@@ -177,8 +177,7 @@ enabled = true
 port = 22233 # enter new port number
 filter = sshd
 logpath = /var/log/auth.log
-maxretry = 3
-bantime = 3600
+
 
 # SSH - DDOS
 [ssh-ddos]
@@ -187,8 +186,7 @@ enabled = true
 port = 22233 # enter new port number
 filter = sshd-ddos
 logpath = /var/log/auth.log
-maxretry = 6
-bantime = 3600
+
 
 # protect the password enabled portion of the website from getting slammed with login attempts.
 # this needs setup https://www.howtoforge.com/basic-http-authentication-with-nginx
@@ -199,8 +197,7 @@ enabled = true
 filter = nginx-http-auth
 port = http,https
 logpath = /var/log/nginx*/*error*.log
-maxretry = 6
-bantime = 3600
+
 
 # prevent bruteforce by limiting php throttling request
 [nginx-ratelimit]
@@ -208,8 +205,7 @@ enabled = true
 port = http,https
 filter = nginx-ratelimit
 logpath = /var/log/nginx*/*error*.log
-maxretry = 10
-bantime = 3600
+
 
 # Blocks IPs that fail to authenticate using web application's log in page
 [nginx-login]
@@ -217,8 +213,7 @@ enabled = true
 filter = nginx-login
 port = http,https
 logpath = /var/log/nginx*/*access*.log
-bantime = 3600
-maxretry = 6
+
 
 # Block IPs trying to execute scripts such as .php, .pl, .exe and other funny scripts.
 [nginx-noscript]
