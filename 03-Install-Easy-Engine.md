@@ -19,15 +19,11 @@ address is used while creating WordPress website
 
 **Install EasyEngine Stack** 
 
-EasyEngine(ee) Stack manages packages required to run your website smoothly. [Check this URL](http://docs.rtcamp.com/easyengine/commands/stack) for the complete guide and installation of complete package
+EasyEngine(ee) Stack manages packages required to run your website smoothly. [Check this URL](http://docs.rtcamp.com/easyengine/commands/stack/) for the complete guide and installation of complete package
 
 We will choose few stack that is needed for web server only, no mail server. To install these stack run following command
 
-```
-sudo ee stack install
-sudo ee stack install --utils
-sudo ee stack install --phpmyadmin
-```
+`sudo ee stack install`
 
 **Do not forget to save your HTTP authentication credentials as it's needed to manage admin portal via browser**
 
