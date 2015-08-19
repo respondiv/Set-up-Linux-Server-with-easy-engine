@@ -63,6 +63,10 @@ vm.vfs_cache_pressure = 50
 
 Press `ctrl+x` and type `y` to save and exit
 
+**Reload sysctl**
+
+`sudo sysctl -p`
+
 **Reboot the System for changes to be effective**
 
 `sudo reboot now`
