@@ -8,7 +8,7 @@ or [http://docs.rtcamp.com/easyengine/](http://docs.rtcamp.com/easyengine/)
 
 **Install easy engine**
 
-`sudo wget -q http://rt.cx/ee && sudo bash ee`
+`sudo wget -qO ee rt.cx/ee && sudo bash ee`
 
 Above command asks for your name and email address, which will be set as your git username. Email address is used to maintain track of configuration files. Also the same email
 address is used while creating WordPress website
