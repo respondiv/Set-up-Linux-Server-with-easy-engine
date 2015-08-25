@@ -32,6 +32,8 @@ server {
   index index.php index.htm index.html;
   
   include common/wpfc.conf;
+  #Use wpfcwc.conf istead of wpfc.conf if you have wocommerce store
+  #include common/wpfcwc.conf;
   include common/wpcommon.conf;
   include common/locations.conf;
   
