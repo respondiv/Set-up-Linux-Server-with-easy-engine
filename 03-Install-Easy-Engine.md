@@ -27,6 +27,14 @@ We will choose few stack that is needed for web server only, no mail server. To 
 
 **Do not forget to save your HTTP authentication credentials as it's needed to manage admin portal via browser**
 
+------------------------------------------------------------------
+
+Run Following Code so that wordpress can send email:
+
+`sudo apt-get install mailutils`
+
+------------------------------------------------------------------
+
 #### Let's secure EasyEngine while we are at it
 
 **Change your HTTP authentication credentials**
