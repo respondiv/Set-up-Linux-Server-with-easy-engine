@@ -100,7 +100,7 @@ unzip filename.zip -d path/to/destination_folder
 #### Backup MySQL Database from command line
 
 ```
-mysqldump --single-transaction -u mysql_user_name -p -mysql_db_name | gzip > filename.sql.gz
+mysqldump --single-transaction --triggers -R -E -u mysql_user_name -p -mysql_db_name | gzip > filename.sql.gz
 ```
 
 #### Repair and Optimize MySQL Database
