@@ -3,9 +3,7 @@
 
 **Locate mysql root password**
 
-`sudo cat ~/.my.cnf`
-
-Sometimes it's located @ `sudo cat /etc/mysql/conf.d/my.cnf`
+`sudo cat /etc/mysql/conf.d/my.cnf`
 
 **Secure mysql installation**
 
