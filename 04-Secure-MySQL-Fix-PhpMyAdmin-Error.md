@@ -30,6 +30,17 @@ Press `ctrl+x` and type `y` to save and exit
 - See if there is any Error, Normally there should be two
   - The configuration file now needs a secret passphrase (blowfish_secret)
   - The phpMyAdmin configuration storage is not completely configured
+  
+ **If there is an error saying `File ./vendor/autoload.php missing or not readable. 
+Most likely you did not run Composer to install library files.` do this **
+
+```
+sudo apt-get install composer -y
+cd /var/www/22222/htdocs/db/pma
+sudo composer install
+sudo chown www-data: * -R
+
+```
 
 #### To fix "The phpMyAdmin configuration storage is not completely configured"
 
