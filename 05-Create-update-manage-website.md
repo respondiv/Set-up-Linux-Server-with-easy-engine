@@ -22,7 +22,12 @@ Press `ctrl+x` and type `y` to save and exit
 Create wordPress with fast cgi cache which uses W3TC for object and database cache only. This is the best compared to all caches handled by W3TC
 
 
-`sudo ee site create example.com --wpfc`
+`sudo ee site create example.com --wpfc --php7 --letsencrypt`
+
+```
+--php7 will let's you create site with php7 support
+--letsencrypt will let you enable free ssl for the site 
+```
 
 Change example.com to your domain name or ip address
 
