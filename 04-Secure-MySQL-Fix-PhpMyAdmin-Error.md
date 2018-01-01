@@ -13,7 +13,7 @@ Select the configure that best matches you, normally press `y` 5 times. You can 
 
 **Update mysql root password for easy engine to read on following file if you have updated the password**
 
-`sudo nano ~/.my.cnf`
+`sudo nano /etc/mysql/conf.d/my.cnf`
 
 Press `ctrl+x` and type `y` to save and exit
 
@@ -37,7 +37,7 @@ Most likely you did not run Composer to install library files.` do this **
 ```
 sudo apt-get install composer -y
 cd /var/www/22222/htdocs/db/pma
-sudo composer install
+sudo composer install --no-dev
 sudo chown www-data: * -R
 
 ```
