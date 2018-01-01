@@ -27,6 +27,10 @@ We will choose few stack that is needed for web server only, no mail server. To 
 
 **Do not forget to save your HTTP authentication credentials as it's needed to manage admin portal via browser**
 
+**Install Php 7**
+
+`sudo ee stack install --php7`
+
 ------------------------------------------------------------------
 
 Run Following Code so that wordpress can send email:
