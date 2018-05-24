@@ -119,3 +119,48 @@ mysqlcheck -o -u mysql_user_name -p -mysql_db_name
 # log into SSH using Sudo user's credential. Then type following command
 su
 ```
+
+### MySql Log
+
+Sometimes mysql log file will fill up the harddisk. Perform following command to delete any logs older than 6 hours (you can change it to any # of hour)
+
+#### Create a script file
+
+`sudo nano /var/www/scripts/purge_mysql_bin_logs.sh`
+
+#### Save following command on the script file
+
+```
+#!/bin/bash
+mysql -e "PURGE BINARY LOGS BEFORE NOW() - INTERVAL 6 HOUR;"
+
+```
+
+Press `ctrl+x` and type `y` to save and exit
+
+#### Give execute permission to your script:
+
+`chmod +x /var/www/scripts/purge_mysql_bin_logs.sh`
+
+#### Test script by:
+
+`/var/www/scripts/purge_mysql_bin_logs.sh`
+
+#### Add a cron job every 6 hours
+
+**Open cron tab**
+
+`crontab -e`
+
+
+**Save following command at the end of the file**
+
+`0 */6 * * * /opt/aor/scripts/purge_mysql_bin_logs.sh`
+
+#### check running crontab
+
+crontab –l
+
+
+
+
