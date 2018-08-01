@@ -155,7 +155,7 @@ Press `ctrl+x` and type `y` to save and exit
 
 **Save following command at the end of the file**
 
-`0 */6 * * * /opt/aor/scripts/purge_mysql_bin_logs.sh`
+`0 */6 * * * /var/www/scripts/purge_mysql_bin_logs.sh`
 
 #### check running crontab
 
